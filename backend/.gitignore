@@ -1,0 +1,27 @@
+# Node
+node_modules/
+.env
+npm-debug.log*
+
+# Build
+dist/
+build/
+
+# Logs
+logs/
+*.log
+
+# OS
+.DS_Store
+
+# IDEs
+.vscode/
+.idea/
+
+# React / Vite
+frontend/node_modules/
+frontend/dist/
+
+# Optional lock files (only if you prefer 1 lock type)
+# package-lock.json
+# yarn.lock
