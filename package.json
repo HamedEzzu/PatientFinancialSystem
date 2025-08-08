@@ -1,0 +1,19 @@
+{
+  "name": "patientfinancialsystem",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "concurrently \"npm run server\" \"npm run frontend\"",
+    "server": "cd backend && node app.js",
+    "frontend": "cd frontend && npm run dev"
+
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "concurrently": "^9.2.0"
+  }
+}
